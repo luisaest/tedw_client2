@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "project-cliente",
+=======
+  "name": "tedw_client",
+>>>>>>> 488d09fbca4c5581dbde949ccee82555d71b1304
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+<<<<<<< HEAD
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -32,5 +37,26 @@
     "eslint-plugin-vue": "^7.0.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2"
+=======
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.1",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+>>>>>>> 488d09fbca4c5581dbde949ccee82555d71b1304
   }
 }
